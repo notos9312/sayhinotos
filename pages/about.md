@@ -15,7 +15,7 @@ title: 关于我
 很好，决定用了。  
 
 ## 关于这个博客
-该博客网站托管于 Netlify，与 GitHub 绑定，因此我push到 GitHub 上即可产生变化，本博客的源码地址是 [Notos Blog](https://github.com/notos9312/sayhinotos)。  
+该博客网站托管于 Netlify，与 GitHub 绑定，因此我push到 GitHub 上即可产生变化，本博客的源码地址是 [Notos Blog](https://github.com/notos9312/sayhinotos)  
 主题来自[tmaize-blog](https://github.com/TMaize/tmaize-blog)
 
 ## 相关技能

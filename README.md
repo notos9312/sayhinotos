@@ -1,3 +1,7 @@
-# jekyll-base
+# 介绍
 
-Fresh Jekyll install from running "jekyll new ..."
+全新的静态博客网站
+
+# 注意
+
+1. 主题来自[TMaize Blog的GitHub地址](https://github.com/TMaize/tmaize-blog)

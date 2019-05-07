@@ -1,14 +1,12 @@
----
-layout: default
----
-<div class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+{%- assign pageCSS = page.css -%}
+{%- assign pageJS = page.js -%}
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body ondragstart="return false;">
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+{% include script.html %}
+</body>
+</html>

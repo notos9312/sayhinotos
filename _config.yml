@@ -1,14 +1,38 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+encoding: utf-8
 
-# Build settings
-markdown: kramdown
+# SEO相关信息
+title: Notos Blog
+description: 南风有信~
+keywords: Notos,Blog,Html,JavaScript
+author: Notos
+footerText: '© 2016-2019 NotFamous·Notos'
+
+# 域名配置,生成sitemap会用到，友链也会用到
+domainUrl: 'http://say.hinotos.com'
+# 路径配置，静态资源404一般是这里不对
+# 直接域名访问设置为'',有如果是user.github.io/blog/访问的话设置为'/blog'
+baseUrl: ''
+
+# 菜单
+menu:
+  - title: Home
+    url: /
+  - title: Categories
+    url: /pages/categories.html
+  - title: Search
+    url: /pages/search.html
+  - title: Links
+    url: /pages/links.html
+  - title: Chat
+    url: /pages/chat.html
+  - title: About
+    url: /pages/about.html
+
+# 文章url前缀，固定格式，不要动
+permalink: /posts/:year/:month/:day/:title.html
+
+kramdown:
+  auto_ids: true
+  input: GFM
+
+exclude: ['CNAME', 'README.md', 'build-tool']

@@ -170,6 +170,7 @@ body::-webkit-scrollbar {
   margin-top: 20px;
   margin-bottom: 4px;
   font-size: 0;
+  text-align: center;
 }
 .footer > * {
   font-size: 14px;

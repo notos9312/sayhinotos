@@ -5,7 +5,7 @@ title: Notos Blog
 description: 南风有信
 keywords: Notos,Blog,Html,JavaScript
 author: Notos
-footerText: '© 2019 NotFamous·Notos'
+footerText: 'NotFamous·Notos©2019'
 
 # 域名配置,生成sitemap会用到，友链也会用到
 domainUrl: 'https://say.hinotos.com'
